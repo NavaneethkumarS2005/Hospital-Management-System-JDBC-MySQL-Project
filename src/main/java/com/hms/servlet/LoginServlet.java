@@ -48,17 +48,16 @@ extends HttpServlet {
         email,
         password);
 
-        if(user != null){
+        if (user != null) {
 
-            HttpSession session =
+            HttpSession session = request.getSession();
 
-            request.getSession();
+            // Store the User object (not just email) so JSPs/servlets can access user details
+            session.setAttribute("user", user);
 
-            session.setAttribute(
-            "user",
-            email);
-            		response.sendRedirect(
-            		"DashboardServlet");
+            // Redirect using context path to ensure correct absolute URL
+            String ctx = request.getContextPath();
+            response.sendRedirect(ctx + "/DashboardServlet");
             		
             
             	

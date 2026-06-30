@@ -1,172 +1,72 @@
-# 🏥 Hospital Management System
+# Hospital Management System
 
-A comprehensive Hospital Management System developed using **Java Full Stack Technologies** to manage hospital operations efficiently through a centralized web-based platform.
+A Java web application for hospital management built with Servlets, JSP, JDBC, and MySQL.
 
-## 🚀 Features
+## Features
 
-### 🔐 Authentication
+- Secure login and logout
+- Doctor management
+- Patient management
+- Appointment management
+- Lab report upload and viewing
+- Pharmacy and medicine management
+- Bills and prescription management
+- Dashboard statistics
 
-* Secure Login & Logout
-* Session Management
-* Protected Dashboard Access
+## Technologies Used
 
-### 👨‍⚕️ Doctor Management
+- Java
+- JSP
+- Servlets
+- JDBC
+- MySQL
+- Apache Tomcat 9
+- Bootstrap 5
 
-* Add Doctor
-* View Doctor Details
-* Update Doctor Information
-* Delete Doctor Records
+## Prerequisites
 
-### 🧑‍🤝‍🧑 Patient Management
+- Java 17 or later
+- Apache Tomcat 9
+- MySQL server
+- Eclipse, IntelliJ IDEA, or VS Code with Java extensions
 
-* Add Patient
-* View Patient Records
-* Update Patient Details
-* Delete Patient Records
+## Setup
 
-### 📅 Appointment Management
+1. Clone the repository.
+2. Open the project in your IDE.
+3. Configure MySQL and create the `hospital_management` database.
+4. Update database settings in `src/main/java/com/hms/db/DBConnection.java` or set these environment variables:
+   - `DB_URL`
+   - `DB_USER`
+   - `DB_PASS`
+5. Use Tomcat 9 to run the project.
 
-* Book Appointments
-* View Appointments
-* Edit Appointment Details
-* Delete Appointments
+## Running In VS Code
 
-### 🧪 Lab Reports
+Build and deploy the project:
 
-* Upload Lab Reports
-* View Lab Test Results
-* Manage Patient Reports
+```powershell
+.\build-and-deploy.ps1
+```
 
-### 💊 Pharmacy Management
+Start Tomcat:
 
-* Add Medicines
-* Manage Inventory
-* Monitor Medicine Stock
-* View Available Medicines
+```powershell
+.\run-tomcat.bat
+```
 
-### 📊 Dashboard Analytics
-
-* Total Patients
-* Total Doctors
-* Total Appointments
-* Total Bills
-* Interactive Charts and Statistics
-
-## 🛠️ Technologies Used
-
-### Frontend
-
-* HTML5
-* CSS3
-* JavaScript
-* Bootstrap 5
-
-### Backend
-
-* Java
-* JSP
-* Servlets
-* JDBC
-
-### Database
-
-* MySQL
-
-### Server
-
-* Apache Tomcat
-
-### IDE
-
-* Eclipse IDE
-
-## 📂 Project Structure
+Open:
 
 ```text
-HospitalManagementSystem
-│
-├── src/
-│   ├── com.hms.servlet
-│   ├── com.hms.dao
-│   ├── com.hms.model
-│   └── com.hms.db
-│
-├── WebContent/
-│   ├── css/
-│   ├── js/
-│   ├── dashboard.jsp
-│   ├── patientRegister.jsp
-│   ├── doctorRegister.jsp
-│   ├── appointment.jsp
-│   ├── labReport.jsp
-│   └── login.jsp
-│
-└── Database/
-
-```
-## 🧠 Algorithms & Concepts Used
-
-* Queue Scheduling (Appointments)
-* Search Operations
-* Sorting Techniques
-* Session Management
-* CRUD Operations
-* Database Connectivity using JDBC
-
-## 🗄️ Database Tables
-
-```sql
-users
-patients
-doctors
-appointments
-lab_reports
-medicines
-bills
+http://localhost:8081/HospitalManagementSystem/login.jsp
 ```
 
-## ⚙️ Installation & Setup
+## Notes
 
-### 1. Clone Repository
+- This project uses `javax.servlet.*`, so use Tomcat 9 instead of Tomcat 10.
+- The included run script sets `CATALINA_HOME` and `CATALINA_BASE` automatically.
+- Email sending is currently logged to the console unless a mail dependency is added back.
 
-```bash
-git clone https://github.com/your-username/Hospital-Management-System.git
-```
+## Repository
 
-### 2. Import Project
-
-* Open Eclipse IDE
-* Import Existing Dynamic Web Project
-
-### 3. Configure Database
-
-Create a MySQL database and import required tables.
-
-Update database credentials inside:
-
-```java
-DBConnection.java
-```
-
-### 4. Configure Tomcat
-
-* Install Apache Tomcat
-* Add Server Runtime in Eclipse
-
-### 5. Run Project
-
-```text
-http://localhost:8080/HospitalManagementSystem
-```
-
-## 🔮 Future Enhancements
-
-* Online Consultation System
-* Automated Appointment Reminders
-* Advanced Health Analytics
-* Email Notifications
-* Mobile Application Integration
-
-## 👨‍💻 Author
-
-### Navaneeth Kumar S
+`https://github.com/NavaneethkumarS2005/Hospital-Management-System-JDBC-MySQL-Project`

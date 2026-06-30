@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:05:08 +0530] "GET /HospitalManagementSystem/login.jsp HTTP/1.1" 200 4614
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:07:57 +0530] "GET /HospitalManagementSystem/login.jsp HTTP/1.1" 200 4614
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:07:57 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:08:09 +0530] "POST /HospitalManagementSystem/LoginServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:08:11 +0530] "GET /HospitalManagementSystem/DashboardServlet HTTP/1.1" 200 15046
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:08:11 +0530] "GET /HospitalManagementSystem/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:08:22 +0530] "GET /HospitalManagementSystem/patientRegister.jsp HTTP/1.1" 200 4031
+0:0:0:0:0:0:0:1 - - [30/Jun/2026:09:08:25 +0530] "GET /HospitalManagementSystem/dashboard.jsp HTTP/1.1" 200 15046

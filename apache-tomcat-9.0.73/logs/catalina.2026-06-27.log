@@ -1,0 +1,179 @@
+27-Jun-2026 16:06:02.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+27-Jun-2026 16:06:02.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+27-Jun-2026 16:06:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+27-Jun-2026 16:06:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+27-Jun-2026 16:06:02.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Jun-2026 16:06:02.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jun-2026 16:06:02.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Navaneeth kumar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest
+27-Jun-2026 16:06:02.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1+8
+27-Jun-2026 16:06:02.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Jun-2026 16:06:02.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:06:02.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:06:02.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstdout.encoding=UTF-8
+27-Jun-2026 16:06:02.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstderr.encoding=UTF-8
+27-Jun-2026 16:06:02.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2026 16:06:02.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2026 16:06:02.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Jun-2026 16:06:02.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Jun-2026 16:06:02.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2026 16:06:02.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=d:\Hospital Management System\apache-tomcat-9.0.73\conf\logging.properties
+27-Jun-2026 16:06:02.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2026 16:06:02.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2026 16:06:02.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2026 16:06:02.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2026 16:06:02.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:06:02.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:06:02.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:\Hospital Management System\apache-tomcat-9.0.73\temp
+27-Jun-2026 16:06:03.373 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+27-Jun-2026 16:06:03.373 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Jun-2026 16:06:03.374 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Jun-2026 16:06:03.387 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+27-Jun-2026 16:06:04.030 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Jun-2026 16:06:04.061 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1014)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1032)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1302)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1315)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:652)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1012)
+		... 11 more
+27-Jun-2026 16:06:04.065 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1655] milliseconds
+27-Jun-2026 16:06:04.137 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2026 16:06:04.137 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+27-Jun-2026 16:06:04.167 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\HospitalManagementSystem.war]
+27-Jun-2026 16:06:05.597 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2026 16:06:05.695 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\HospitalManagementSystem.war] has finished in [1,523] ms
+27-Jun-2026 16:06:05.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\docs]
+27-Jun-2026 16:06:05.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\docs] has finished in [70] ms
+27-Jun-2026 16:06:05.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\examples]
+27-Jun-2026 16:06:06.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\examples] has finished in [670] ms
+27-Jun-2026 16:06:06.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\host-manager]
+27-Jun-2026 16:06:06.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\host-manager] has finished in [71] ms
+27-Jun-2026 16:06:06.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\manager]
+27-Jun-2026 16:06:06.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\manager] has finished in [70] ms
+27-Jun-2026 16:06:06.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\ROOT]
+27-Jun-2026 16:06:06.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\ROOT] has finished in [38] ms
+27-Jun-2026 16:06:06.626 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2559] milliseconds
+27-Jun-2026 16:12:34.950 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+27-Jun-2026 16:12:38.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+27-Jun-2026 16:12:38.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+27-Jun-2026 16:12:38.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+27-Jun-2026 16:12:38.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+27-Jun-2026 16:12:38.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Jun-2026 16:12:38.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jun-2026 16:12:38.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Navaneeth kumar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest
+27-Jun-2026 16:12:38.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1+8
+27-Jun-2026 16:12:38.681 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Jun-2026 16:12:38.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:12:38.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:12:38.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstdout.encoding=UTF-8
+27-Jun-2026 16:12:38.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstderr.encoding=UTF-8
+27-Jun-2026 16:12:38.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2026 16:12:38.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2026 16:12:38.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Jun-2026 16:12:38.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Jun-2026 16:12:38.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2026 16:12:38.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=d:\Hospital Management System\apache-tomcat-9.0.73\conf\logging.properties
+27-Jun-2026 16:12:38.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2026 16:12:38.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2026 16:12:38.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2026 16:12:38.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2026 16:12:38.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:12:38.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:12:38.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:\Hospital Management System\apache-tomcat-9.0.73\temp
+27-Jun-2026 16:12:38.716 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+27-Jun-2026 16:12:38.716 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Jun-2026 16:12:38.717 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Jun-2026 16:12:38.731 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+27-Jun-2026 16:12:39.467 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-Jun-2026 16:12:39.526 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1188] milliseconds
+27-Jun-2026 16:12:39.629 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2026 16:12:39.629 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+27-Jun-2026 16:12:39.673 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\HospitalManagementSystem.war]
+27-Jun-2026 16:12:41.452 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2026 16:12:41.575 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\HospitalManagementSystem.war] has finished in [1,896] ms
+27-Jun-2026 16:12:41.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\docs]
+27-Jun-2026 16:12:41.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\docs] has finished in [87] ms
+27-Jun-2026 16:12:41.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\examples]
+27-Jun-2026 16:12:42.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\examples] has finished in [813] ms
+27-Jun-2026 16:12:42.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\host-manager]
+27-Jun-2026 16:12:42.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\host-manager] has finished in [92] ms
+27-Jun-2026 16:12:42.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\manager]
+27-Jun-2026 16:12:42.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\manager] has finished in [94] ms
+27-Jun-2026 16:12:42.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\ROOT]
+27-Jun-2026 16:12:42.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\ROOT] has finished in [50] ms
+27-Jun-2026 16:12:42.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-Jun-2026 16:12:42.793 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3262] milliseconds
+27-Jun-2026 16:16:15.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+27-Jun-2026 16:16:15.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+27-Jun-2026 16:16:15.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+27-Jun-2026 16:16:15.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+27-Jun-2026 16:16:15.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Jun-2026 16:16:15.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Jun-2026 16:16:15.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Navaneeth kumar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest
+27-Jun-2026 16:16:15.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1+8
+27-Jun-2026 16:16:15.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+27-Jun-2026 16:16:15.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:16:15.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:16:15.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstdout.encoding=UTF-8
+27-Jun-2026 16:16:15.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dstderr.encoding=UTF-8
+27-Jun-2026 16:16:15.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Jun-2026 16:16:15.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Jun-2026 16:16:15.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Jun-2026 16:16:15.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Jun-2026 16:16:15.890 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Jun-2026 16:16:15.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=d:\Hospital Management System\apache-tomcat-9.0.73\conf\logging.properties
+27-Jun-2026 16:16:15.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Jun-2026 16:16:15.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Jun-2026 16:16:15.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Jun-2026 16:16:15.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Jun-2026 16:16:15.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:16:15.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:\Hospital Management System\apache-tomcat-9.0.73
+27-Jun-2026 16:16:15.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:\Hospital Management System\apache-tomcat-9.0.73\temp
+27-Jun-2026 16:16:15.903 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.36] using APR version [1.7.2].
+27-Jun-2026 16:16:15.904 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Jun-2026 16:16:15.904 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Jun-2026 16:16:15.918 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1t  7 Feb 2023]
+27-Jun-2026 16:16:16.534 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+27-Jun-2026 16:16:16.596 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1074] milliseconds
+27-Jun-2026 16:16:16.696 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Jun-2026 16:16:16.697 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+27-Jun-2026 16:16:16.745 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\HospitalManagementSystem.war]
+27-Jun-2026 16:16:18.289 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Jun-2026 16:16:18.398 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\HospitalManagementSystem.war] has finished in [1,645] ms
+27-Jun-2026 16:16:18.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\docs]
+27-Jun-2026 16:16:18.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\docs] has finished in [73] ms
+27-Jun-2026 16:16:18.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\examples]
+27-Jun-2026 16:16:19.177 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\examples] has finished in [703] ms
+27-Jun-2026 16:16:19.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\host-manager]
+27-Jun-2026 16:16:19.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\host-manager] has finished in [113] ms
+27-Jun-2026 16:16:19.291 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\manager]
+27-Jun-2026 16:16:19.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\manager] has finished in [78] ms
+27-Jun-2026 16:16:19.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\ROOT]
+27-Jun-2026 16:16:19.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Hospital Management System\apache-tomcat-9.0.73\webapps\ROOT] has finished in [50] ms
+27-Jun-2026 16:16:19.427 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+27-Jun-2026 16:16:19.575 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2975] milliseconds
+27-Jun-2026 16:18:59.060 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Jun-2026 16:18:59.063 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+27-Jun-2026 16:18:59.082 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Jun-2026 16:18:59.168 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+27-Jun-2026 16:18:59.181 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]

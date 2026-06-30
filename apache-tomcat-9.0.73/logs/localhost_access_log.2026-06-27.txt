@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [27/Jun/2026:16:12:49 +0530] "HEAD /HospitalManagementSystem/ HTTP/1.1" 404 -
+127.0.0.1 - - [27/Jun/2026:16:17:10 +0530] "HEAD /HospitalManagementSystem/login.jsp HTTP/1.1" 404 -
